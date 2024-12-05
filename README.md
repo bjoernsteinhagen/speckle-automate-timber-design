@@ -6,7 +6,7 @@ This example function automates the extraction of results and properties from ET
 
 ## ✨ Features
 - Send analysis model with results to a [Speckle project](https://speckle.systems/) using the connectors
-- [Automation](https://speckle.systems/features/automation/) triggered based on user inputs
+- [Automation](https://www.speckle.systems/product/automate) triggered based on user inputs
 - Elements filtered by material type and desired design process (e.g. design timber columns)
 - Design conducted with results returned to Speckle project
 
@@ -21,8 +21,10 @@ The project has been written in a way to encourage and allow for ease of extensi
 - Material database:
   - Britain
 
+ Want to see more features? Let's collaborate!
+
 ## 📜 Licensing
-[Apache-2.0 license](https://github.com/bjoernsteinhagen/timber-design?tab=Apache-2.0-1-ov-file)
+[Apache-2.0 license](https://github.com/bjoernsteinhagen/speckle-automate-timber-design/blob/main/LICENSE)
 
 ## 📚 Docs
 [Speckle Automate Docs](https://speckle.guide/automate/)
