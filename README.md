@@ -50,11 +50,11 @@ Automated design validation for timber columns in ETABS models, triggered on eve
 * The `sourceApplication` can be extended beyond ETABS. For this, add a new class to `src/model`. Follow the pattern of `etabs.py` (the implementation must inherit from the base class `StructuralModel`.
 
 ## 📈 Results & Validation
-The model which triggers the automation has summary automation results which can be interrogated. In the below screenshot, we can filter the checked timber columns by those with a utilization between 0.75 and 1.0:
+The model which triggers the automation has summary automation results which can be interrogated. In the below screenshot, we can for example filter the checked timber columns by those with a utilization between 0.75 and 1.0:
 
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/687ffa6d-5e11-45b2-8f26-c73ba53a019a" />
 
-For more granular calculation steps, we can open the provided "Model for writing results". Here 3D utilization plots can be federated with the triggering model for greater context. Furtherore, the objects have the metadata from each calculation step attached:
+For more granular calculation steps, we can open the provided "Model for writing results". Here 3D utilization plots can be federated with the triggering model for greater context. Furtherore, the objects have the metadata from each calculation step attached. These can be seen by the selection information on the right of the viewer:
 
 ![image](https://github.com/user-attachments/assets/ee71328d-a6af-4202-b918-a52687eb62f0)
 
