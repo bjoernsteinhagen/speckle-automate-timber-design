@@ -63,13 +63,13 @@ For more granular calculation steps, we can open the provided "Model for writing
 ### 🟢 SUCCEEDED
 What constitutes a successful run:
 * The `sourceApplication` is identified as ETABS
-* The Speckle model has was sent using "Everything". This means that `specs` and `elements` attributes exist
+* The Speckle model was sent using "Everything". This means that `specs` and `elements` attributes exist
 * If at least one column could be processed. This entails:
   * Object having a valid `length` attribute
-  * Object `cross_section` being rectangular
+  * Object `cross_section` being **rectangular**
   * Object `material` being parsed as timber
   * Object containing `forces` from the analysis results
-* A timber column failing the design check (utilization > 1.0) will still be deemed as successful automation run
+* A timber column failing the design check (utilization > 1.0) will still be deemed as **successful automation run**
 
 ### 🔴 FAILED
 What constitutes a failed run:
